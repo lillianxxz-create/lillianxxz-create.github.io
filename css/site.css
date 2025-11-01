@@ -21,7 +21,7 @@ body{
 }
 
 .romance{
-    background-image: url(../images/romancebackground.jpg);
+    background-image: "../images/romancebackground.jpg";
     /* background-repeat: no-repeat; */
     background-size:cover;
 }
@@ -93,4 +93,5 @@ footer{
     margin: 0px;
     background-color: antiquewhite;
     padding: 7px;
+
 }
