@@ -11,7 +11,7 @@ body{
 .index{
     /* background: linear-gradient(to bottom right, lavenderblush, cornflowerblue); */
     background-size: cover;
-    background-image: url("../images/indexbackground.jpg");
+    background-image: url("images/indexbackground.jpg");
 }
 
 .nonfiction{
@@ -21,7 +21,7 @@ body{
 }
 
 .romance{
-    background-image: url("../images/romancebackground.jpg");
+    background-image: url("images/romancebackground.jpg");
     /* background-repeat: no-repeat; */
     background-size:cover;
 }
@@ -95,6 +95,7 @@ footer{
     padding: 7px;
 
 }
+
 
 
 
