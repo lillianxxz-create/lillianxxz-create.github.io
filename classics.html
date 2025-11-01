@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classics</title>
+    <link rel="stylesheet" href="CSS/site.css">
+    <link rel="stylesheet" href="CSS/table.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+</head>
+<body class="classics">
+    <h1 class="heading"><a href="index.html">Lillian's Reading Log</a></h1>
+    <h2>Classics</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nonfiction.html">Non-Fiction</a></li>
+            <li><a href="romance.html">Romance</a></li>
+            <li><a href="fantasy.html">Fantasy</a></li>
+            <li><a href="historical.html">Historical Fiction</a></li>
+            <li><a href="scifi.html">Sci-Fi</a></li>
+            <li><a href="classics.html">Classics</a>
+                <ul>
+                    <li><a href="classicsinschool.html">For School</a></li>
+                    <li><a href="classicspersonal.html">Personal</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <h2>Overview</h2>
+    <table class="table"> <!-- Border is an attribute. HTML prefers CSS instead of the border attribute, hence why it is red -->
+        <caption>My Reading Log</caption>
+        <thead style="color:olivedrab; background-color:darkgreen"> <!-- style is CSS -->
+            <tr>
+                <th>Book Name</th> <!-- tr will bold text -->
+                <th>Author</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Personal Rating</th>
+            </tr>
+        </thead>
+        <tbody style="color: black; background-color:forestgreen;">
+        <tr>
+            <td>Romeo and Juliet</td>
+            <td>William Shakespeare</td>
+            <td>September 28, 2023</td>
+            <td>Finished in Grade 10 English Class</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>The Hobbit</td>
+            <td>J. R. Tolkien</td>
+            <td>Grade 7 English Class</td>
+            <td>Grade 7 English Class</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>The Strage Case of Dr. Jekyll and Mr. Hyde</td>
+            <td>Robert Louis Stevenson</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NA</td>
+        </tr>
+        </tbody>
+        <tfoot style="color:darkkhaki; background-color:darkolivegreen;">
+            <tr>
+                <td>Note</td>
+                <td colspan="4">Here is the note for this table</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <footer>
+        &copy; Lillian 2025-01-23
+    </footer>
+</body>
+</html>
