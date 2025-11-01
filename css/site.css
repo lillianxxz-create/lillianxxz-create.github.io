@@ -11,12 +11,12 @@ body{
 .index{
     /* background: linear-gradient(to bottom right, lavenderblush, cornflowerblue); */
     background-size: cover;
-    background-image: url(../images/indexbackground.jpg);
+    background-image: url("../images/indexbackground.jpg");
 }
 
 .nonfiction{
     /* background: linear-gradient(to bottom right, antiquewhite, blanchedalmond); */
-    background-image: url(../images/nonfictionbackground.jpg);
+    background-image: url("../images/nonfictionbackground.jpg");
     background-size: cover;
 }
 
@@ -27,12 +27,12 @@ body{
 }
 
 .classics{
-    background-image: url(../images/classicsbackground.jpg);
+    background-image: url("../images/classicsbackground.jpg");
     background-size:auto;
 }
 
 .fantasy{
-    background-image: url(../images/fantasybackground3.jpg);
+    background-image: url("../images/fantasybackground3.jpg");
     background-size: cover;
 }
 
@@ -95,6 +95,7 @@ footer{
     padding: 7px;
 
 }
+
 
 
 
