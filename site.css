@@ -11,7 +11,7 @@ body{
 .index{
     /* background: linear-gradient(to bottom right, lavenderblush, cornflowerblue); */
     background-size: cover;
-    background-image: url(indexbackground.jpg);
+    background-image: ../images/indexbackground.jpg;
 }
 
 .nonfiction{
@@ -95,3 +95,4 @@ footer{
     padding: 7px;
 
 }
+
